@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 10vh;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(bg.jpg) no-repeat center center/cover;
+}
+
+.banner {
+    background-attachment: fixed;
+    height: 75vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+
+.smallText {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #00000046;
+    padding: 2.5vh 2.5vw;
+    border-radius: 10px;
+}
+
+.futureOfInfluencers .h1 {
+    padding: 5vh 10vw;
+    width: 100%;
+}
+
+.influencer {
+    height: 100%;
+    width: 100%;
+}
+
+.facts {
+    margin-top: 10vh;
+    width: 70vw;
+    margin: 7.5vh auto 0 auto;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.futureOfInfluencers p {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 1.25vh 0;
+}
+
+.button {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10vh;
+    justify-content: center!important;
+}
+
+.button button {
+    text-align: center;
+    width: 15vw;
+    height: 10vh;
+    margin: 0 auto!important;
+    border: 0;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.button button:hover {
+    cursor: pointer;
+    background-color: rgba(95, 95, 95, 0.712);
+}
+
+button a:link {
+    color: black;
+    text-decoration: none;
+}
+
+button a:visited {
+    color: black;
+}
+
+button a:hover {
+    color: black;
+}
+
+button a:active {
+    color: black;
+}
+
+.bottomContainer {
+    padding-top: 10vh;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
+
+.font {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.link-dark {
+    text-decoration: none;
+}
+
+#bottom {
+    width: 75vw;
+}
+
+.col-xl-12 {
+    padding-bottom: 5vh;
+}
+
+.col-xl-12 p {
+    text-align: center;
+}
+
+.pollButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-poll {
+    border: 0;
+    border-radius: 0;
+    padding: 2.5vh 2.5vw;
+    transition-duration: 0.5s;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.btn-poll:hover {
+    cursor: pointer;
+    background-color: rgba(201, 201, 201, 0.712);
+}
+
+.brandLogo {
+    height: 100%;
+    width: 100%;
+}
+
+.brandPromo {
+    padding: 20vh 0;
+    width: 100vw!important;
+    background-image: linear-gradient(to bottom, #212529, #525458, #88898c, #c2c2c4, #ffffff);
+}
+
+.whiteText {
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.brandImg {
+    width: 100%;
+}
+
+.brandImgZee {
+    width: 60%;
+}
+
+.brandImgTvc {
+    width: 60%;
+}
+
+.flexForBrandImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #212529;
+}
+
+.priceRow {
+    width: 60vw!important;
+    margin: 0 auto!important;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 10vh 0 5vh 0;
+}
+
+.whiteSpace {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.influencerBanner {
+    width: 40%;
+    align-self: flex-start;
+}
+
+.greenText {
+    padding-right: 5%;
+    font-size: 1.5rem;
+    color: #3fb54f;
+    font-weight: bold;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.influencerBadgeImg {
+    transform: scale(1.15);
+}
+
+.perks {
+    padding: 1rem;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.033)
+}
+
+.buttonn {
+    border-radius: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.6s;
+    text-align: center;
+    width: 10vw;
+    height: 10vh;
+    margin: 5vh auto 10vh auto;
+    border: 0;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+}
+
+.buttonn:hover {
+    text-decoration: none;
+    transform: scale(1.07);
+    background-color: #8D8D8D;
+}
+
+.buttonn:active {
+    position: relative;
+    top: 1px;
+}
+
+.hiddenTable {
+    display: none;
+    width: 100vw!important;
+    margin-bottom: 0!important;
+}
+
+.footer {
+    padding: 10vh 0 2vh 0;
+}
+
+.container {
+    padding: 2vh 0;
+}
+
+ion-icon:hover {
+    color: rgb(67, 67, 255);
+    cursor: pointer;
+}
+
+.supportContainer {
+    /* background-color:red; */
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 90vh;
+    }
+    .influencer {
+        width: 100%;
+        height: 100%;
+    }
+    .facts {
+        width: 85vw;
+    }
+    .button button {
+        width: 60vw;
+        height: 12.5vh;
+    }
+    .btn-poll {
+        padding: 2.5vh 10vw
+    }
+    .mainText {
+        padding-top: 10vh;
+        font-size: 2.5rem;
+    }
+    .smallText {
+        font-size: 1rem;
+        padding: 0 2.5rem;
+    }
+    .bottomInfluencer {
+        padding-top: calc(var(--bs-gutter-x));
+    }
+    .priceRow {
+        width: 90vw!important;
+    }
+    .price {
+        font-size: 1rem;
+    }
+    .card {
+        transition: transform 0.75s;
+    }
+    .card:hover {
+        transform: scale(1.05);
+    }
+    .perks {
+        padding: 1rem;
+        display: none;
+    }
+    .card-body {
+        height: 0!important;
+        width: 0!important;
+        padding: 0!important;
+    }
+    hr {
+        padding: 0;
+        margin: 0!important;
+        display: none;
+    }
+    .card-footer-text {
+        font-size: 0.75em!important;
+        white-space: nowrap!important;
+    }
+    .strike {
+        font-size: 0.75rem;
+    }
+    .greenText {
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    .hiddenTable {
+        display: block;
+    }
+    .buttonn {
+        width: 50vw;
+        height: 12.5vh;
+    }
+    .brandImg {
+        width: 100%!important;
+    }
+    .brandImgZee {
+        width: 40%;
+    }
+    .brandImgTvc {
+        width: 60%;
+    }
+}
