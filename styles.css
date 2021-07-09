@@ -333,6 +333,18 @@ button a:active {
     max-width: 100%!important;
 }
 
+.gridImages{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.gridImages:active{
+    transform: scale(1.025);
+}
+
 .footer {
     padding: 10vh 0 2vh 0;
 }
