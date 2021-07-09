@@ -323,11 +323,10 @@ button a:active {
 }
 
 .videoContainer{
-    padding: 10vh 0;
+    padding: 5vh 0;
 }
 
 #videoContainerContainer{
-    /* background-color: red; */
     height: 100%;
     width: 100%!important;
     max-width: 100%!important;
@@ -341,7 +340,7 @@ button a:active {
     border-radius: 5px;
 }
 
-.gridImages:active{
+.gridImages:hover{
     transform: scale(1.025);
 }
 
