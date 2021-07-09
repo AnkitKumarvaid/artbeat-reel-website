@@ -322,6 +322,28 @@ button a:active {
     margin-bottom: 0!important;
 }
 
+.videoContainer{
+    padding: 5vh 0;
+}
+
+#videoContainerContainer{
+    height: 100%;
+    width: 100%!important;
+    max-width: 100%!important;
+}
+
+.gridImages{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.gridImages:hover{
+    transform: scale(1.025);
+}
+
 .footer {
     padding: 10vh 0 2vh 0;
 }
@@ -415,6 +437,11 @@ ion-icon:hover {
         font-size: 1rem;
         font-weight: bold;
     }
+    .brandPromo {
+        padding: 10vh 0;
+        width: 100vw!important;
+        background-image: linear-gradient(to bottom, #212529, #525458, #88898c, #c2c2c4, #ffffff);
+    }
     .hiddenTable {
         display: block;
     }
@@ -430,5 +457,14 @@ ion-icon:hover {
     }
     .brandImgTvc {
         width: 60%;
+    }
+}
+
+@media (min-width: 768px){
+    .wideVideoContainer {
+    max-width: 720px!important;
+    margin-left: auto;
+    margin-right: auto;
+    
     }
 }
